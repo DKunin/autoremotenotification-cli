@@ -13,5 +13,8 @@ if(argv.m) {
 if(argv.t) {
   argv.title = argv.t;
 }
+if(argv.k) {
+  argv.key = argv.k;
+}
 
 arnotif(R.merge(defaultNotif, argv));
