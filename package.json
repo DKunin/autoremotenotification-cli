@@ -1,0 +1,23 @@
+{
+  "name": "autoremotecli",
+  "version": "1.0.0",
+  "description": "Cli for autoremotenotification",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoremotenotification": "git:git@github.com:DKunin/autoremotenotification.git",
+    "ramda": "^0.17.1",
+    "yargs": "^3.18.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "aure": "./index.js"
+  }
+}
