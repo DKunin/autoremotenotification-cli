@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "Cli for autoremotenotification",
   "main": "index.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "dependencies": {
     "autoremotenotification": "git:git@github.com:DKunin/autoremotenotification.git",
+    "nconf": "^0.7.2",
     "ramda": "^0.17.1",
     "yargs": "^3.18.0"
   },
